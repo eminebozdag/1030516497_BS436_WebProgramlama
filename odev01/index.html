@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kediyi Bul</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./kod.js"></script>
+</head>
+
+<body>
+<h2>Kedi Bulmaca</h2>
+<div id="kart">
+  <img id="img0" class="kart" src="dog1" onclick="newGame()">
+  <img id="img1" class="kart" src="dog2" onclick="newGame()">
+  <img id="img2" class="kart" src="cat" onclick="newGame()">
+</div>
+<div class="mesaj">
+    <p id="alanId">Kedi kartını bulmak için kartın üzerine tıklamalısın.</p>
+    <p id="kazandiId" style="display: none">Kazandın!!! Tebrik ederiz. Yeni bir oyun oynamak istersen <span onclick="newGame()">buraya</span> tıklayabilirsin. </p>
+    <p id="yenildiId" style="display: none">Kaybettin :(  Yeni bir oyun oynamak istersen <span onclick="newGame()">buraya</span> tıklayabilirsin. </p>
+</div>
+</body>
+
+</html> 
