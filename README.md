@@ -1,1 +1,5 @@
-# 1030516497_BS436_WebProgramlama
+Öğrenci Numarası: 1030516497
+
+Öğrenci Adı: Emine SARIGÜL
+
+Ders Adı: BS436 Web Programlama
